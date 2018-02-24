@@ -1,0 +1,30 @@
+
+body {
+  background-color: #7ECCFA;
+}
+.to-do-list {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+#addButton {
+  margin-left: 8px;
+}
+/*If you want to change placeholder style
+/* ::-webkit-input-placeholder {
+  padding: 5px;
+} */
+input {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+ul#tasks {
+  list-style-type: none;
+  padding-right: 15px;
+  padding-left: 20px;
+}
+.newElement {
+  background-color: #BFE6FD;
+  border-radius: 8px;
+  margin: 15px 0;
+}
